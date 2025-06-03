@@ -16,7 +16,7 @@
   "author": "Um4r719",
   "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "github:DavidTechInc/Baileys",
+    "@whiskeysockets/baileys": "^6.6.0",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
     "pino": "^8.1.0",
