@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #1e3c72, #2a5298, #4e8bc2);
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .frame {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      margin-bottom: 40px;
+    }
+
+    .typing-effect {
+      font-size: 35px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      display: inline-block;
+      white-space: nowrap;
+      animation: glitch 1.5s infinite, scroll-left 12s linear infinite;
+    }
+
+    @keyframes glitch {
+      0% { text-shadow: 2px 0 #ff0000, -2px 0 #00ffff, 0 2px #00ff00, 0 -2px #ff00ff; }
+      50% { text-shadow: -2px 0 #ff00ff, 2px 0 #ffff00, 0 2px #ff4500, 0 -2px #00ffff; }
+      100% { text-shadow: 2px 0 #00ff00, -2px 0 #ff0000, 0 2px #ff1493, 0 -2px #00ff00; }
+    }
+
+    @keyframes scroll-left {
+      from { transform: translateX(100%); }
+      to { transform: translateX(-100%); }
+    }
+
+    .btn {
+      width: 240px;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: 0.4s ease;
+      margin: 12px;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: #fff;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #ff7e5f, #feb47b);
+      color: #fff;
+      transform: scale(1.05);
+    }
+
+    .audio-control {
+      position: absolute;
+      bottom: 10px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+
+    #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="particles-js"></div>
+
+  <div class="frame">
+    <div class="typing-effect">
+      BIENVENUE SUR KOKO MANMANW ZaryaBot-V1
+    </div>
+  </div>
+
+ <!-- Bouton WhatsApp -->
+  <button onclick="window.open('https://whatsapp.com/channel/0029VbCHd5V1dAw132PB7M1B')" class="btn">
+    Ma Chaîne WhatsApp
+  </button>
+
+  <!-- Bouton YouTube Go -->
+  <button onclick="window.open('https://github.com/dawens-boy2/PRIME-MD')" class="btn">
+    YouTube Go Like krek marenn ou
+  </button>
+
+  <!-- Bouton Plugin GitHub -->
+  <button onclick="window.open('https://github.com/dawens-boy2/PRIME-MD')" class="btn">
+    Plugin krek u
+  </button>
+  <button onclick="window.open('https://wa.me/50942241547')" class="btn">Me Contacter</button>
+  <button class="btn">Pair Code</button> <!-- Bouton ajouté -->
+
+  <audio autoplay loop class="audio-control">
+    <source src="https://files.catbox.moe/rohnlg.mp4" type="audio/mp4">
+    Votre navigateur ne supporte pas l'audio.
+  </audio>
+
+  <script>
+    particlesJS('particles-js', {
+      "particles": {
+        "number": {
+          "value": 120,
+          "density": { "enable": true, "value_area": 800 }
+        },
+        "color": { "value": "#ffffff" },
+        "shape": {
+          "type": "circle",
+          "stroke": { "width": 0, "color": "#000" }
+        },
+        "opacity": {
+          "value": 0.4,
+          "random": true,
+          "anim": { "enable": true, "speed": 1, "opacity_min": 0.1 }
+        },
+        "size": {
+          "value": 4,
+          "random": true,
+          "anim": { "enable": true, "speed": 4, "size_min": 0.3 }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.3,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 4,
+          "random": true
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": { "enable": true, "mode": "grab" },
+          "onclick": { "enable": true, "mode": "push" }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+
+</body>
+</html>
