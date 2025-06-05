@@ -50,4 +50,4 @@ Get New Version__😎✔
 <br>
 
 
-[`Helper`](https://wa.me/+50942241547?text=Session_Problem gyet mmw😭😹❤️)
+[Helper](https://wa.me/+50942241547?text=Session_Problem gyet mmw😭😹❤️)
