@@ -49,7 +49,7 @@ Get New Version__😎✔
 
 <br>
 
-
-[Helper](https://wa.me/+50942241547?text=Session_Problem gyet mmw😭😹❤️)
+## CONTACT HELPER
+[Helper](https://wa.me/50942241547?text=Session_Problem%20gyet%20mmw%F0%9F%98%AD%F0%9F%98%B9%E2%9D%A4%EF%B8%8F)
 
 <br>
